@@ -18,7 +18,7 @@ When it is displayed, it will cover any elements behind it. <br>
 Also, there are input boxes for each added product which are used for inputting the quantity of each selected product. <br>
 A checkout button will be used to submit the list to the Payment page and go to the Payment page. <br>
   <br>
-In the Product page, it provides product details: full-size image, name, description, price, and addToCart button. <br>
+In the Product page, it provides product details: bigger image, name, description, price, and addToCart button. <br>
 After users click on the addToCart button, the shopping list will be updated. <br>
   <br>
 Both main and product pages include a hierarchical navigation menu. <br>
