@@ -2,7 +2,7 @@
 
 <h2>https://ddwpok-7.github.io/IERG4210_Project/</h2> 
 
-<p>The upper link is the starting static web page of the shopping website. <br>
+<p>The upper link is the starting page of my IERG4210 project GitHub static web page which is a shopping website. <br>
 I use semantic HTML throughout the whole assignment and separate the CSS and JS code from the HTML. <br>
   <br>
 There are two categories: New Balance and Nike. <br>
