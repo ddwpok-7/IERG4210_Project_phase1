@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>IERG4210 Shopping Website</h1>
+  </header>
+
+  <nav>
+    <div class="shopping-list-container">
+      <button class="shopping-list-nametag">
+        Shopping List
+      </button>
+      <div class="shopping-list">
+        <h3>Shopping List</h3>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0.00</p>
+        <a href="../payment.html">
+          <button id="checkout">Checkout</button>
+        </a>
+      </div>
+    </div>
+
+    <ul class="navigation">
+      <li><a href="../index.html">Home</a></li>
+      <li><p>></p></li>
+      <li><a href="nike.html">Nike</a></li>
+    </ul>
+  </nav>
+
+  <nav>
+    <ul class="category">
+      <li><a href="../newBalance/newBalance.html">&nbsp;New Balance&nbsp;</a></li>
+      <li><a href="nike.html">&nbsp;Nike&nbsp;</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="products">
+      <h2>Nike Products</h2>
+      <div class="product-list">
+
+        <div class="product">
+          <a href="nikeProduct.html?productId=1">
+            <img src="photo/NikeBlackSweatshirt.png" alt="Nike Black Sweatshirt">
+            <h3>Nike <br> Black Sweatshirt</h3>
+          </a>
+          <p>$600.00</p>
+          <button class="add-to-cart" added-product="Nike Black Sweatshirt">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <a href="nikeProduct.html?productId=2">
+            <img src="photo/NikeBlueSweatshirt.png" alt="Nike Blue Sweatshirt">
+            <h3>Nike <br> Blue Sweatshirt</h3>
+          </a>
+          <p>$500.00</p>
+          <button class="add-to-cart" added-product="Nike Blue Sweatshirt">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <a href="nikeProduct.html?productId=3">
+            <img src="photo/NikeBrownSweatshirt.png" alt="Nike Brown Sweatshirt">
+            <h3>Nike <br> Brown Sweatshirt</h3>
+          </a>
+          <p>$500.00</p>
+          <button class="add-to-cart" added-product="Nike Brown Sweatshirt">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <a href="nikeProduct.html?productId=4">
+            <img src="photo/NikeGreySweatshirt.png" alt="Nike Grey Sweatshirt">
+            <h3>Nike <br> Grey Sweatshirt</h3>
+          </a>
+          <p>$500.00</p>
+          <button class="add-to-cart" added-product="Nike Grey Sweatshirt">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <a href="nikeProduct.html?productId=5">
+            <img src="photo/NikeSailSweatshirt.png" alt="Nike Sail Sweatshirt">
+            <h3>Nike <br> Sail Sweatshirt</h3>
+          </a>
+          <p>$600.00</p>
+          <button class="add-to-cart" added-product="Nike Sail Sweatshirt">Add to Cart</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>@LEE Sze-man 1155193157</p>
+    <p>All photo is downloaded from the New Balance and Nike Website</p>
+  </footer>
+
+  <script src="../listScript.js"></script>
+  <script src="nikeProductScript.js"></script>
+
+</body>
+</html>
