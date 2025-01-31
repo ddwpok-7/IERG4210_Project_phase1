@@ -28,4 +28,5 @@ Users can click on the page name, it will redirect users to an upper level of th
 After clicking on the button "Click to clear Shopping List" on the Payment page, the shopping list will be cleared. <br>
   <br>
 Finally, I host the static web page with GitHub. <br>
+  <a href=https://github.com/ddwpok-7/IERG4210_Project.git>https://github.com/ddwpok-7/IERG4210_Project.git</a> <br>
 </p>
