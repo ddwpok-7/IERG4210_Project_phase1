@@ -4,7 +4,6 @@
 
 <p>The upper link is the starting page of the shopping website. <br>
 I use semantic HTML throughout the whole assignment and separate the CSS and JS code from the HTML. <br>
-such as/<header>, <nav>, <footer>, <div>, <section>, <ul>, <li> <br>
   <br>
 There are two categories: New Balance and Nike. <br>
 Users can choose the band to see the related product. <br>
